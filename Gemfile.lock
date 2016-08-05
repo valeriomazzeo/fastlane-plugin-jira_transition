@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fastlane-plugin-jira_transition (0.2.0)
+    fastlane-plugin-jira_transition (0.2.1)
       jira-ruby (~> 1.0)
 
 GEM
@@ -269,10 +269,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.12.5)
+  bundler (~> 1.12)
   fastlane (~> 1.99)
   fastlane-plugin-jira_transition!
-  pry (~> 0.10.4)
+  pry (~> 0.10)
   rspec (~> 3.5)
 
 BUNDLED WITH
