@@ -17,11 +17,10 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  # spec.add_dependency 'your-dependency', '~> 1.0.0'
+  spec.add_runtime_dependency 'jira-ruby', '>= 1.0.0'
 
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rspec'
-  spec.add_development_dependency 'fastlane', '>= 1.93.1'
-  spec.add_development_dependency 'jira-ruby'
+  spec.add_development_dependency 'fastlane', '>= 1.99.0'
 end
